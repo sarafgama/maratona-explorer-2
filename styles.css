@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  html{
+    --bg-color: #FFE4C4;
+    --text-color: #00082F;
+    --primary-color: #EE82EE;
+    --primary-color-dark: #ee82c3;
+    --primary-color-avatar: #000000;
+  }
+  
+  body.dark-blue {
+    --bg-color: #00082F;
+    --text-color: #FFFFFF;
+    --primary-color: #FBEC5D;
+    --primary-color-dark: #FDE910;
+  }
+  
+  body.pink {
+    --bg-color: #FFF0F6;
+    --text-color: #1F000B;
+    --primary-color: #D6336C;
+    --primary-color-dark: #A61E4D;
+  }
+  
+  body.green {
+    --bg-color: #00FF00;
+    --text-color: #8b4513;
+    --primary-color: #FF6B00;
+    --primary-color-dark: #CC5600;
+  }
+  
+  body.dark-pink {
+    --bg-color: #de3163;
+    --text-color: #fdf5e6;
+    --primary-color: #fa7f72;
+    --primary-color-dark: #20b2aa;
+  }
+  
+  .container {
+    text-align: center;
+    width: 300px;
+    margin: 60px auto;
+  }
+  
+  body {
+    color: var(--text-color);
+    background: var(--bg-color);
+    font-family:'Lobster Two', cursive;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  img.avatar {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 3.7px;
+    border: var(--primary-color) solid 4px;
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+  }
+  
+  .usarname {
+    font-family: 'Lobster Two', cursive;
+    font-family: 'The Nautigal', cursive;
+    font-weight: 400;
+    opacity: 0.8;
+    font-size: 15px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 48px 0;
+  }
+  
+  ul li a {
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-color);
+    color: var(--text-color);
+    font-size: 16px;
+  
+    margin-bottom: 16px; 
+    border-radius: 6px;
+  
+    transition: background 400ms;
+  }
+  
+  ul li a:hover {
+    background: var(--primary-color-dark);
+  }
+  
+  footer {
+    font-weight: 500;
+    font-size: 12px;
+    opacity: 0.6;
+  }
+  
+  footer:hover {
+    opacity: 1;
+  }
+  
+  footer a {
+    color: var(--text-color);
+  }
